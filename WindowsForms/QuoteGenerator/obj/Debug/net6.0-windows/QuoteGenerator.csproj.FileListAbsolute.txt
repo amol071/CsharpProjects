@@ -1,0 +1,16 @@
+D:\Amol\Projects\CSharp\CsharpProjects\WindowsForms\QuoteGenerator\bin\Debug\net6.0-windows\QuoteGenerator.exe
+D:\Amol\Projects\CSharp\CsharpProjects\WindowsForms\QuoteGenerator\bin\Debug\net6.0-windows\QuoteGenerator.deps.json
+D:\Amol\Projects\CSharp\CsharpProjects\WindowsForms\QuoteGenerator\bin\Debug\net6.0-windows\QuoteGenerator.runtimeconfig.json
+D:\Amol\Projects\CSharp\CsharpProjects\WindowsForms\QuoteGenerator\bin\Debug\net6.0-windows\QuoteGenerator.dll
+D:\Amol\Projects\CSharp\CsharpProjects\WindowsForms\QuoteGenerator\bin\Debug\net6.0-windows\QuoteGenerator.pdb
+D:\Amol\Projects\CSharp\CsharpProjects\WindowsForms\QuoteGenerator\obj\Debug\net6.0-windows\QuoteGenerator.Form1.resources
+D:\Amol\Projects\CSharp\CsharpProjects\WindowsForms\QuoteGenerator\obj\Debug\net6.0-windows\QuoteGenerator.csproj.GenerateResource.cache
+D:\Amol\Projects\CSharp\CsharpProjects\WindowsForms\QuoteGenerator\obj\Debug\net6.0-windows\QuoteGenerator.GeneratedMSBuildEditorConfig.editorconfig
+D:\Amol\Projects\CSharp\CsharpProjects\WindowsForms\QuoteGenerator\obj\Debug\net6.0-windows\QuoteGenerator.AssemblyInfoInputs.cache
+D:\Amol\Projects\CSharp\CsharpProjects\WindowsForms\QuoteGenerator\obj\Debug\net6.0-windows\QuoteGenerator.AssemblyInfo.cs
+D:\Amol\Projects\CSharp\CsharpProjects\WindowsForms\QuoteGenerator\obj\Debug\net6.0-windows\QuoteGenerator.csproj.CoreCompileInputs.cache
+D:\Amol\Projects\CSharp\CsharpProjects\WindowsForms\QuoteGenerator\obj\Debug\net6.0-windows\QuoteGenerator.dll
+D:\Amol\Projects\CSharp\CsharpProjects\WindowsForms\QuoteGenerator\obj\Debug\net6.0-windows\refint\QuoteGenerator.dll
+D:\Amol\Projects\CSharp\CsharpProjects\WindowsForms\QuoteGenerator\obj\Debug\net6.0-windows\QuoteGenerator.pdb
+D:\Amol\Projects\CSharp\CsharpProjects\WindowsForms\QuoteGenerator\obj\Debug\net6.0-windows\QuoteGenerator.genruntimeconfig.cache
+D:\Amol\Projects\CSharp\CsharpProjects\WindowsForms\QuoteGenerator\obj\Debug\net6.0-windows\ref\QuoteGenerator.dll
