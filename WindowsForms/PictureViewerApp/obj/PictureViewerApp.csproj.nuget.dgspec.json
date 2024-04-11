@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Amol\\Projects\\CSharp\\WindowsForms\\PictureViewerApp\\PictureViewerApp.csproj": {}
+    "D:\\Amol\\Projects\\CSharp\\CsharpProjects\\WindowsForms\\PictureViewerApp\\PictureViewerApp.csproj": {}
   },
   "projects": {
-    "D:\\Amol\\Projects\\CSharp\\WindowsForms\\PictureViewerApp\\PictureViewerApp.csproj": {
+    "D:\\Amol\\Projects\\CSharp\\CsharpProjects\\WindowsForms\\PictureViewerApp\\PictureViewerApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Amol\\Projects\\CSharp\\WindowsForms\\PictureViewerApp\\PictureViewerApp.csproj",
+        "projectUniqueName": "D:\\Amol\\Projects\\CSharp\\CsharpProjects\\WindowsForms\\PictureViewerApp\\PictureViewerApp.csproj",
         "projectName": "PictureViewerApp",
-        "projectPath": "D:\\Amol\\Projects\\CSharp\\WindowsForms\\PictureViewerApp\\PictureViewerApp.csproj",
+        "projectPath": "D:\\Amol\\Projects\\CSharp\\CsharpProjects\\WindowsForms\\PictureViewerApp\\PictureViewerApp.csproj",
         "packagesPath": "C:\\Users\\amol0\\.nuget\\packages\\",
-        "outputPath": "D:\\Amol\\Projects\\CSharp\\WindowsForms\\PictureViewerApp\\obj\\",
+        "outputPath": "D:\\Amol\\Projects\\CSharp\\CsharpProjects\\WindowsForms\\PictureViewerApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\amol0\\AppData\\Roaming\\NuGet\\NuGet.Config",

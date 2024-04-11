@@ -14,4 +14,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PictureViewerApp
-build_property.ProjectDir = D:\Amol\Projects\CSharp\WindowsForms\PictureViewerApp\
+build_property.ProjectDir = D:\Amol\Projects\CSharp\CsharpProjects\WindowsForms\PictureViewerApp\
