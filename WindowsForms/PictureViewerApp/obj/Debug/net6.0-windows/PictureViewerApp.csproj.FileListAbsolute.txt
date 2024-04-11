@@ -1,0 +1,16 @@
+D:\Amol\Projects\CSharp\WindowsForms\PictureViewerApp\bin\Debug\net6.0-windows\PictureViewerApp.exe
+D:\Amol\Projects\CSharp\WindowsForms\PictureViewerApp\bin\Debug\net6.0-windows\PictureViewerApp.deps.json
+D:\Amol\Projects\CSharp\WindowsForms\PictureViewerApp\bin\Debug\net6.0-windows\PictureViewerApp.runtimeconfig.json
+D:\Amol\Projects\CSharp\WindowsForms\PictureViewerApp\bin\Debug\net6.0-windows\PictureViewerApp.dll
+D:\Amol\Projects\CSharp\WindowsForms\PictureViewerApp\bin\Debug\net6.0-windows\PictureViewerApp.pdb
+D:\Amol\Projects\CSharp\WindowsForms\PictureViewerApp\obj\Debug\net6.0-windows\PictureViewerApp.Form1.resources
+D:\Amol\Projects\CSharp\WindowsForms\PictureViewerApp\obj\Debug\net6.0-windows\PictureViewerApp.csproj.GenerateResource.cache
+D:\Amol\Projects\CSharp\WindowsForms\PictureViewerApp\obj\Debug\net6.0-windows\PictureViewerApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Amol\Projects\CSharp\WindowsForms\PictureViewerApp\obj\Debug\net6.0-windows\PictureViewerApp.AssemblyInfoInputs.cache
+D:\Amol\Projects\CSharp\WindowsForms\PictureViewerApp\obj\Debug\net6.0-windows\PictureViewerApp.AssemblyInfo.cs
+D:\Amol\Projects\CSharp\WindowsForms\PictureViewerApp\obj\Debug\net6.0-windows\PictureViewerApp.csproj.CoreCompileInputs.cache
+D:\Amol\Projects\CSharp\WindowsForms\PictureViewerApp\obj\Debug\net6.0-windows\PictureViewerApp.dll
+D:\Amol\Projects\CSharp\WindowsForms\PictureViewerApp\obj\Debug\net6.0-windows\refint\PictureViewerApp.dll
+D:\Amol\Projects\CSharp\WindowsForms\PictureViewerApp\obj\Debug\net6.0-windows\PictureViewerApp.pdb
+D:\Amol\Projects\CSharp\WindowsForms\PictureViewerApp\obj\Debug\net6.0-windows\PictureViewerApp.genruntimeconfig.cache
+D:\Amol\Projects\CSharp\WindowsForms\PictureViewerApp\obj\Debug\net6.0-windows\ref\PictureViewerApp.dll
