@@ -24,3 +24,8 @@ D:\Amol\Projects\CSharp\CsharpProjects\WindowsForms\PrescriptionManagementSoftwa
 D:\Amol\Projects\CSharp\CsharpProjects\WindowsForms\PrescriptionManagementSoftware\obj\Debug\net6.0-windows\PrescriptionManagementSoftware.genruntimeconfig.cache
 D:\Amol\Projects\CSharp\CsharpProjects\WindowsForms\PrescriptionManagementSoftware\obj\Debug\net6.0-windows\ref\PrescriptionManagementSoftware.dll
 D:\Amol\Projects\CSharp\CsharpProjects\WindowsForms\PrescriptionManagementSoftware\obj\Debug\net6.0-windows\PrescriptionManagementSoftware.SuperAdmin.resources
+D:\Amol\Projects\CSharp\CsharpProjects\WindowsForms\PrescriptionManagementSoftware\obj\Debug\net6.0-windows\PrescriptionManagementSoftware.Main.resources
+D:\Amol\Projects\CSharp\CsharpProjects\WindowsForms\PrescriptionManagementSoftware\obj\Debug\net6.0-windows\PrescriptionManagementSoftware.Doctor.Doctor.resources
+D:\Amol\Projects\CSharp\CsharpProjects\WindowsForms\PrescriptionManagementSoftware\obj\Debug\net6.0-windows\PrescriptionManagementSoftware.Hospital.Hospital.resources
+D:\Amol\Projects\CSharp\CsharpProjects\WindowsForms\PrescriptionManagementSoftware\obj\Debug\net6.0-windows\PrescriptionManagementSoftware.Medicines.Medicines.resources
+D:\Amol\Projects\CSharp\CsharpProjects\WindowsForms\PrescriptionManagementSoftware\obj\Debug\net6.0-windows\PrescriptionManagementSoftware.Patient.Patient.resources

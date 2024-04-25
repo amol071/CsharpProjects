@@ -1,5 +1,6 @@
 using System;
 using System.Configuration;
+using System.Data;
 using System.Data.SqlClient;
 using System.Windows.Forms;
 
@@ -13,6 +14,7 @@ namespace PrescriptionManagementSoftware
         {
             InitializeComponent();
             InitializeSqlConnection();
+            this.FormClosing += Form1_FormClosing; // Subscribe to the FormClosing event
         }
 
         private void InitializeSqlConnection()
@@ -72,6 +74,86 @@ namespace PrescriptionManagementSoftware
                     Console.WriteLine("An error occurred: " + ex.Message);
                 }
             }
+        }
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            // Check if the SQL connection is open
+            if (connection != null && connection.State == ConnectionState.Open)
+            {
+                // Close the SQL connection
+                connection.Close();
+            }
+        }
+
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            string username = txtUsername.Text;
+            string password = txtPassword.Text;
+
+            // Check if the username or password fields are blank
+            if (string.IsNullOrWhiteSpace(username) || string.IsNullOrWhiteSpace(password))
+            {
+                MessageBox.Show("Please enter both username and password", "Input Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return; // Exit the event handler
+            }
+
+            // Query to check if the username and password exist in tbl_User
+            string query = "SELECT COUNT(*) FROM tbl_User WHERE username = @Username AND password = @Password";
+
+            // Create a command to execute the query
+            using (SqlCommand command = new SqlCommand(query, connection))
+            {
+                // Add parameters for username and password
+                command.Parameters.AddWithValue("@Username", username);
+                command.Parameters.AddWithValue("@Password", password);
+
+                try
+                {
+                    // Execute the query to check if the user exists
+                    int count = (int)command.ExecuteScalar();
+
+                    // If count is greater than 0, user exists
+                    if (count > 0)
+                    {
+                        // Close Form1
+                        this.Hide();
+
+                        // Open Main form
+                        Main mainForm = new Main(connection); // Pass the connection to Main form
+                        mainForm.Show(); // Show Main form
+                    }
+                    else
+                    {
+                        // Show error message if username or password is incorrect
+                        MessageBox.Show("Invalid username or password", "Login Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    // Handle any exceptions
+                    MessageBox.Show("An error occurred: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+        }
+
+
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            // Clear the text in txtUsername and txtPassword textboxes
+            txtUsername.Text = "";
+            txtPassword.Text = "";
+        }
+
+        private void btnCancel_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

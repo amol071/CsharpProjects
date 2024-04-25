@@ -1,7 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+    <Compile Update="Doctor\Doctor.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Hospital\Hospital.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Medicines\Medicines.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Patient\Patient.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="SuperAdmin.cs">
