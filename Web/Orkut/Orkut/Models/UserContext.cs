@@ -9,6 +9,9 @@ namespace Orkut.Models
 {
     public class UserContext : DbContext
     {
+        public UserContext() : base("name=UserContext")
+        {
+        }
         public DbSet<User> Users { get; set; }
     }
 }

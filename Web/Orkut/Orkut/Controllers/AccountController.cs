@@ -31,6 +31,7 @@ namespace Orkut.Controllers
                 {
                     // Authentication successful
                     // Set up user session or cookie
+                    Session["Username"] = user.Username;
                     return RedirectToAction("Index", "Home");
                 }
                 else
