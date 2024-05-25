@@ -40,6 +40,7 @@
             btnLogin = new Button();
             btnClear = new Button();
             btnCancel = new Button();
+            superAdminToolStripMenuItem = new ToolStripMenuItem();
             statusStrip1.SuspendLayout();
             menuStrip1.SuspendLayout();
             SuspendLayout();
@@ -104,7 +105,7 @@
             // 
             // menuStrip1
             // 
-            menuStrip1.Items.AddRange(new ToolStripItem[] { exitToolStripMenuItem });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { exitToolStripMenuItem, superAdminToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
             menuStrip1.Size = new Size(450, 24);
@@ -148,6 +149,13 @@
             btnCancel.UseVisualStyleBackColor = true;
             btnCancel.Click += btnCancel_Click;
             // 
+            // superAdminToolStripMenuItem
+            // 
+            superAdminToolStripMenuItem.Name = "superAdminToolStripMenuItem";
+            superAdminToolStripMenuItem.Size = new Size(88, 20);
+            superAdminToolStripMenuItem.Text = "Super Admin";
+            superAdminToolStripMenuItem.Click += superAdminToolStripMenuItem_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -187,5 +195,6 @@
         private Button btnLogin;
         private Button btnClear;
         private Button btnCancel;
+        private ToolStripMenuItem superAdminToolStripMenuItem;
     }
 }

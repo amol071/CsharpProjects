@@ -122,7 +122,13 @@ namespace PrescriptionManagementSoftware
                     if (count > 0)
                     {
                         // Close Form1
-                        this.Hide();
+                        //this.Hide();
+
+                        // Hide all open forms
+                        foreach (Form form in Application.OpenForms)
+                        {
+                            form.Hide();
+                        }
 
                         // Open Main form
                         Main mainForm = new Main(connection); // Pass the connection to Main form
@@ -154,6 +160,18 @@ namespace PrescriptionManagementSoftware
         private void btnCancel_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void superAdminToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            // Hide the current form
+            //this.Hide();
+
+            // Create an instance of the SuperAdminMain form
+            SuperAdmin.SuperAdminMain superAdminMainForm = new SuperAdmin.SuperAdminMain();
+
+            // Show the SuperAdminMain form
+            superAdminMainForm.Show();
         }
     }
 }

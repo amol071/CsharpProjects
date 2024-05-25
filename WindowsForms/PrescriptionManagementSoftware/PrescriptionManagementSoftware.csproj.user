@@ -19,7 +19,10 @@
     <Compile Update="Patient\Patient.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="SuperAdmin.cs">
+    <Compile Update="SuperAdmin\SuperAdminMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SuperAdmin\SuperAdmin_addClients.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
